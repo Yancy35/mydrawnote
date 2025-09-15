@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.0">
   <diagram name="第 1 页" id="KFiWZ8A2wl7FYEHRZo6Q">
-    <mxGraphModel dx="352" dy="204" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1246" dy="724" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -54,7 +54,7 @@
           <mxGeometry x="981" y="603" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nNUtpC2Gx8rz_OZG7ZDS-23" value="有数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="887" y="529" width="60" height="30" as="geometry" />
+          <mxGeometry x="893" y="529" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nNUtpC2Gx8rz_OZG7ZDS-26" value="获取新数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="422" y="623" width="80" height="30" as="geometry" />
@@ -99,13 +99,13 @@
           <mxGeometry x="317" y="742.5" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nNUtpC2Gx8rz_OZG7ZDS-35" value="取到数据后的回调" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="307" y="719" width="120" height="30" as="geometry" />
+          <mxGeometry x="307" y="712.5" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nNUtpC2Gx8rz_OZG7ZDS-36" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px; white-space: pre; color: rgb(204, 204, 204);&quot;&gt;&lt;div style=&quot;color: light-dark(rgb(204, 204, 204), rgb(62, 62, 62)); line-height: 22px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;void&lt;/span&gt; &lt;span style=&quot;color: rgb(78, 201, 176);&quot;&gt;MultiFramedRTPSink&lt;/span&gt;::&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 22px;&quot;&gt;&lt;span style=&quot;color: rgb(220, 220, 170);&quot;&gt;ourHandleClosure&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="597" y="746" width="230" height="53" as="geometry" />
         </mxCell>
         <mxCell id="nNUtpC2Gx8rz_OZG7ZDS-42" value="数据处理完成回调" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="614" y="719" width="120" height="30" as="geometry" />
+          <mxGeometry x="593" y="719" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nNUtpC2Gx8rz_OZG7ZDS-19" value="没有数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="637" y="529" width="70" height="30" as="geometry" />
@@ -159,6 +159,15 @@
         </mxCell>
         <mxCell id="nNUtpC2Gx8rz_OZG7ZDS-76" value="&lt;div style=&quot;color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;void&lt;/span&gt; &lt;span style=&quot;color: rgb(78, 201, 176);&quot;&gt;MultiFramedRTPSink&lt;/span&gt;::&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;span&gt;&lt;span style=&quot;color: rgb(204, 204, 204);&quot;&gt;&lt;span style=&quot;color: rgb(220, 220, 170);&quot;&gt;buildAndSendPacket&lt;/span&gt;(&lt;/span&gt;&lt;font color=&quot;#4ec9b0&quot;&gt;...&lt;/font&gt;&lt;font color=&quot;#cccccc&quot;&gt;)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="680.99" y="379" width="230" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="nNUtpC2Gx8rz_OZG7ZDS-81" value="UDP发送到网络" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="874" y="867" width="103" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nNUtpC2Gx8rz_OZG7ZDS-82" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;TCP发送到网络&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300.9981818181816" y="867.0018181818181" width="113" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="nNUtpC2Gx8rz_OZG7ZDS-83" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;继续进行下一次&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;打包发送过程&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1128" y="951" width="88" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
